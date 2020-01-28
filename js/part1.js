@@ -5,7 +5,7 @@ function ConversionPart1() {
     var UnsignedIntBaseTo = parseInt(document.getElementById("1_UnsignedIntBaseToConvertTo").value);
     var outputValue = null;
     var temp = parseInt(UnsignedInt.charAt(0));
-    var outputString = null;
+    var outputString = "";
 
     for(var i = 0; i < UnsignedInt.length-1; i++){
       temp = temp*UnsignedIntBaseFrom;
